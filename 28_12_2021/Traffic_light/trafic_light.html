@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="traffic_light.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div>
+        <h1 class="heading-bg">Traffic Light</h1>
+        <div class="d-flex flex-row justify-content-center">
+            <div class="d-flex flex-column p-1">
+                <button class="m-3 button" id="stopButton" onclick="redButton()">Stop</button>
+                <button class="m-3 button" id="readyButton" onclick="yellowButton()">Ready</button>
+                <button class="m-3 button" id="goButton" onclick="greenButton()">Go</button>
+            </div>
+            <div class="main-container d-flex flex-column">
+                <div class="sub-container" id="stopLight"></div>
+                <div class="sub-container" id="readyLight"></div>
+                <div class="sub-container" id="goLight"></div>
+            </div>
+        </div>
+    </div>
+    <script src="trafficLight.js"></script>
+</body>
+
+</html>
