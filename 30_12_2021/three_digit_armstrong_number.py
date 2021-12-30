@@ -1,7 +1,6 @@
 # Write a program to check if a given 3-digit number X is an Armstrong number or not.
 
-print("Enter the three digit number :")
-number = input()
+number = input("Enter the three Digit Number : ")
 
 first_digit = int(number[0])
 second_digit = int(number[1])
