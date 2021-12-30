@@ -2,10 +2,9 @@
 
 import math
 
-print("Enter Number")
-A = int(input())
-B = int(input())
+A = int(input("Enter the Size A : "))
+B = int(input("Enter The Size B : "))
 
 condition = (A**2)+(B**2)
 
-print("hypotenuse :",int(math.sqrt(condition)))
+print("Hypotenuse :",int(math.sqrt(condition)))
