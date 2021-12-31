@@ -14,5 +14,7 @@ elif units >= 250:
     bill = (50 * 2) +(3*100)+(5*100)+(8*(units-250))
     
 subcharge =(0.2*bill)
+print("Units Charge bill is :",bill)
+print("Subcharge :",subcharge)
 total_bill = (bill + subcharge)
-print(total_bill)
+print("total Electricity :",total_bill)
