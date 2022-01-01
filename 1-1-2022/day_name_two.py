@@ -10,3 +10,5 @@ if days in list_1:
     if j >=7:
         j = j-7
     print(list_1[j])
+else:
+    print("Please enter the valid input")
