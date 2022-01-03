@@ -1,5 +1,5 @@
 # palindrome
-# palindrome means if any word is equal to reverse of that word
+# palindrome means word or sentence reads the same backwards or forwards
 
 string = input("Enter the Word to cheak if it's palindrome or not \n").lower()
 
