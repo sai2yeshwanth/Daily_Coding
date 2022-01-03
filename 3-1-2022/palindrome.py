@@ -1,4 +1,5 @@
 # palindrome
+# palindrome means if any word is equal to reverse of that word
 
 string = input("Enter the Word to cheak if it's palindrome or not \n").lower()
 
