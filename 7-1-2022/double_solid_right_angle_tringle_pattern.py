@@ -15,5 +15,5 @@ def solidRight(N):
     return
 
 N = int(input("Enter the Number to print the solid Right angled tringle : "))
-solidRight(N)
-solidRight(N)
+for i in range(2):
+    solidRight(N)
