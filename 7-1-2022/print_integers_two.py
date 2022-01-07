@@ -8,8 +8,10 @@
 # 2
 # 1 
 
-N =int(input("Enter the number to Print N to 1 : "))
+def print_integer(N):
+    for num in range(N):
+        print(N-num)
 
-for number in range(N):
-    print(N-number)  
+N =int(input("Enter the number to Print N to 1 : "))
+print_integer(N)
                      
