@@ -8,5 +8,6 @@ def digits(N):
     total = len(string)
     print(total)
     return
+
 N = int(input("Enter the Number to find total number of digits : "))
 digits(N)
