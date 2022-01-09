@@ -1,10 +1,7 @@
 # composite number
 
 def composite_number(number):
-    if number > 1:
-        counter = 0
-    else:
-        counter = 1
+    counter = 0
         
     for num in range(2,number):
         if (number%num) == 0:
