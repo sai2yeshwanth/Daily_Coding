@@ -4,7 +4,7 @@
 
 def hollow_rectangle(rows,columns):
 
-    print("{0} X {1} Hollow Rectangle is below")
+    print("{0} X {1} Hollow Rectangle is below".format(rows,columns))
 
     print("* "*columns)
     
