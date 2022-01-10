@@ -6,7 +6,7 @@ def prime_number(number):
 
     for i in range(2,number+1):
         counter = 0
-        for j in range(2,i-1):
+        for j in range(2,i):
             if (i%j) ==0:
                 counter +=1
         if counter == 0:
