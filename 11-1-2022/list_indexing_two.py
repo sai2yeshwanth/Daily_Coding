@@ -5,6 +5,7 @@
 def list_index(number):
     programming_languages_list = ["Python", "Java", "Ruby", "C", "C++", "Go", "R", "JavaScript", "Swift", "PHP", "Kotlin", "Perl"]
     # Write your code here
+    print("Given list is {}".format(programming_languages_list))
     len_list = len(programming_languages_list)
     for num in range(number):
         index_number = int(input("Enter the Index : "))
