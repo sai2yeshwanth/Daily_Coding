@@ -20,7 +20,7 @@ def list_indexing(size_of_list,test_cases):
         
         index = int(input("index value"))
         if len(creating_list) > index: 
-            print(creating_list[index])
+            print(creating_list[index])   
         else:
             print("please enter the index betwwen 0 to {}".format(len(creating_list)))
     
