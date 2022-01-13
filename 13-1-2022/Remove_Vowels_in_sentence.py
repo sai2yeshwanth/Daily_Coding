@@ -5,6 +5,7 @@ def remove_vowels_in_a_sentence(sentence):
     
     vowels = "aeiouAEIOU"
     
+    
     for char in vowels:
         sentence = sentence.replace(char,"")
     print("Remove all vowels in sentence :\n{}".format(sentence))
