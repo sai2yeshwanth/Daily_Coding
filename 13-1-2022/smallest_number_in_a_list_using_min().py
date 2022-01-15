@@ -1,4 +1,4 @@
-# Largest Number In list
+# smallest Number In list
 
 def smallest_number_in_list(list_x):
     # initializing new_list
